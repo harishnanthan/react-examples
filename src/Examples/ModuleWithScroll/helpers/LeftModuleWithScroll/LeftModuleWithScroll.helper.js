@@ -1,0 +1,1 @@
+export const getFlexDirection = (position) => ['left', 'right'].includes(position) ? 'column' : 'row';

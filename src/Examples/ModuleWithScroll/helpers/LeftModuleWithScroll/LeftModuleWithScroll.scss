@@ -1,0 +1,13 @@
+.left_module_with_scroll {
+  border: 2px solid #2d55ff;
+  display: flex;
+  padding: 1em;
+  gap: .5em;
+
+  .left_module_with_scroll_item {
+    padding: 1em;
+    background-color: #fff;
+    color: #2d55ff;
+    cursor: pointer;
+  }
+}

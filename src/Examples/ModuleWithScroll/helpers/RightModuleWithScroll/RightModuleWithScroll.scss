@@ -1,0 +1,11 @@
+.right_module_with_scroll {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory; // added for jump on the next section when scroll happens
+
+  .right_module_with_scroll__content {
+    padding: 1em;
+    height: 100vh;
+    border: 1px solid #010101;
+    scroll-snap-align: start; // added for jump on the next section when scroll happens
+  }
+}
