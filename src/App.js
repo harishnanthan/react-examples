@@ -1,10 +1,13 @@
 // components
-import ScrollModule from './Examples/ModuleWithScroll';
+import Routes from './Home/Routes';
+
+// styles
+import './App.scss'; 
 
 function App() {
   return (
     <div className="App">
-      <ScrollModule />
+      <Routes />
     </div>
   );
 }
