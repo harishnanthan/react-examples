@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { getFlexDirection } from './LeftModuleWithScroll.helper';
 import './LeftModuleWithScroll.scss';
 
@@ -6,8 +7,13 @@ const LeftModuleWithScroll = (props) => {
     width,
     items,
     position,
-    activeLabel
+    activeLabel,
+    defaultActiveKey,
   } = props;
+
+  useEffect(() => {
+    labelClickHandler(defaultActiveKey);
+  }, [defaultActiveKey]);
 
   const labelClickHandler = (item) => {
     const element = document.getElementById(item);

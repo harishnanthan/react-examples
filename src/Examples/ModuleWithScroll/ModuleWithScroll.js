@@ -56,6 +56,7 @@ const ModuleWithScroll = (props) => {
         items={getLabels(modules)}
         activeLabel={activeLabel}
         setActiveLabel={setActiveLabel}
+        defaultActiveKey={defaultActiveKey}
       />
       <RightModuleWithScroll
         width={width}

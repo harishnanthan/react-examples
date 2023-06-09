@@ -11,7 +11,7 @@ const ScrollModule = () => {
       modules={MODULES}
       width={[20, 80]}
       height={[100]}
-      defaultActiveKey={'Tab 1'}
+      defaultActiveKey='Tab 3'
     />
   );
 }
